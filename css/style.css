@@ -1,0 +1,609 @@
+
+    /* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-style: normal;
+    font-weight: 400;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: arial;   
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6F7170;
+    font-family: 'Lato', sans-serif;
+    
+}
+a{
+    text-decoration:none;
+}
+
+.container {
+    padding-right: 110px;
+    padding-left: 95px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.no-padding{
+    padding:0;
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;	
+}
+/*--------------------------
+     header section 
+--------------------------*/
+
+/*---- heading-top -------*/ 
+.heading{
+    padding-top: 10px;
+}
+.heading .btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0;
+    background: #2ABDB7;
+    color: #fff;
+    border-color: #2ABDB7;
+    transition-duration: 0.4s;
+}
+.heading .btn:hover{
+    box-shadow: 1px 2px 6px #2ABDB7;
+}
+.phn-nmbr{
+    color:#FC4906;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.heading li i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: -1px 2px 3px;
+    padding-top: 11px;
+    padding-right: 12px;
+    margin-left: -8px;
+}
+.heading i{
+    color:#4A4A4A ;
+    transition-duration: 0.4s;
+}
+.heading .facebook i:hover{
+    background: #4862A3;
+    color: #fff;
+}
+.heading .twitter i:hover{
+    background: #01A3DF;
+    color: #fff;
+}
+.heading .linkedin i:hover{
+    background: #008AFF;
+    color: #fff;
+}
+
+
+/*------------ // heading-top -----*/
+.header-bg{
+    background: url(../images/top-bg.png) no-repeat;
+    background-position: cover;
+    height: 100%;
+    width: 100%;
+}
+.header-bg{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.bg-content{
+    border: 1px solid #fff;
+    padding: 8px;
+    margin-top: -5%;
+}
+.header-bg-content{
+    background: #FFF none repeat scroll 0% 0%;
+    opacity: 0.8;
+    float: right;
+    padding: 5px 26px 30px;
+    text-align: center;
+}
+.header-bg .header-bg-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #28BDBC;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+.header-bg .header-bg-content h2{
+    font-size: 28px;
+    font-weight: 300;
+    color: #28BDBC;
+    line-height: 40px;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+.header-bg .header-bg-content h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+    margin-top: -5px;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+.header-bg .btn{
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 30px;
+    /*background: #0DBBFF none repeat scroll 0% 0%;*/
+    background: transparent linear-gradient(to bottom, #0DBBFF 0%, #1DB7F5 23%, #0186BD 82%, #0275A2 100%) repeat scroll 0% 0%;
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    border-bottom: 4px solid #007AA9;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+    opacity: 1;
+}
+.header-bg .btn:hover{
+    box-shadow: 1px 2px 6px #0DBBFF;
+    background: linear-gradient(to bottom, #0DBBFF 0%, #9DE0FB 23%, #42C6FB 82%, #00B7FF 100%) repeat scroll 0% 0%;
+}
+/*-------------------------
+   customer Section
+--------------------------*/
+.customer{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.customer h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.customer h2{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.customer-img{
+    transition-duration: 0.4s;
+}
+.customer .customer-img:hover{
+    -webkit-transform :;
+    -mos-transform : scale(1.1,1.1);
+    -o-transform : scale(1.1,1.1);
+    transform : scale(1.1,1.1); 
+}
+.para{
+    font-size: 17px;
+}
+/*-------------------------
+   Simple Sale Section
+--------------------------*/
+.simple{
+    background: #E4E4E4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.simple p{
+    max-width: 722px;
+    margin: 0 auto
+}
+/*-------------------------
+   Digital Rewards Section
+--------------------------*/
+.digital{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.digital p{
+   max-width: 785px;
+    margin: 0px auto; 
+}
+/*-------------------------
+   dashboard Section
+--------------------------*/
+.dashboard{
+    background: #BBE2F3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dashboard h1{
+    font-size: 34px;
+    font-weight:700;
+    color: #4E6165;
+    margin-top: 110px;
+    margin-bottom: 45px;
+}
+.dashboard span{
+    font-weight: 200
+}
+/*-------------------------
+   Slow Day Section
+--------------------------*/
+.slow-day {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.slow-day h1{
+    color:#FF4F5C ;
+    font-weight: 200;
+    margin-top: 140px;
+
+}
+.slow-day p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.slow-day a{
+    color: #3ECDDE;
+    font-weight: 700;
+}
+.slow-day a:hover{
+    color: #FF4F5C;
+    font-weight: 700;
+}
+
+/*-------------------------
+ Powerful Dashbord Section
+--------------------------*/
+.powerfull-dasbord{
+    background: #EBEBEB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.powerfull-dasbord h1{
+    font-size:34px ;
+    font-weight: 700;
+}
+.powerfull-dasbord span{
+    font-weight: 200;
+}
+.powerfull-dasbord h3{
+  font-size: 16px;
+  color: #FF4F5C;
+  margin-top: -15px;  
+}
+
+
+/*-------------------
+    form section
+---------------------*/
+.form-size{
+    padding-left: 135px;
+    padding-left: 135px;
+    padding-bottom: 38px;
+    padding-top: 10px;
+}
+.spring-form h1{
+    margin-bottom: 45px;
+    margin-top: 60px;
+}
+
+.form-inline .control-label {
+    margin-bottom: 0px;
+    vertical-align: right;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #A8A8A8;
+    font-family:"Open Sans Condensed",sans-serif; 
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    background-color: #EBEBEB;
+    border: none;
+    border-radius: 0;
+    padding: 6px 30px;
+}
+.spring-form .btn{
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 34px;
+    background: transparent linear-gradient(to bottom, #0DBBFF 0%, #42C6FB 23%, #9DE0FB 82%, #00B7FF 100%) repeat scroll 0% 0%;
+    /*background: #009AD6 none repeat scroll 0% 0%;*/
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    border-bottom: 4px solid #007AA9;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    transition-duration: 0.4s;
+}
+.spring-form .btn:hover{
+    box-shadow: 1px 2px 6px #0DBBFF;
+    background: transparent linear-gradient(to bottom, #0DBBFF 0%, #9DE0FB 23%, #42C6FB 82%, #00B7FF 100%) repeat scroll 0% 0%;
+}
+
+/*-------------------------
+   Business Section
+--------------------------*/
+.business{
+    background: #47C7D2;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+.business h1{
+    margin-bottom: 70px;
+    color: #fff !important;
+    font-weight: 700;
+}
+.business span{
+    margin-bottom: 70px;
+    color: #fff;
+    font-weight: 200;
+}
+.business-img{
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.business  .business-img:hover {  /*----price p hover---*/
+  -webkit-transform :scale(1.2,1.2);
+  -mos-transform : scale(1.2,1.2);
+  -o-transform : scale(1.2,1.2);
+  transform : scale(1.2,1.2); 
+}
+
+/*-------------------------
+     video Section
+--------------------------*/
+.video{
+    margin-top: -12px;
+    padding-bottom: 30px;
+}
+
+
+
+/*-------------------------
+   price-table  Section
+--------------------------*/
+.price-box li{
+    font-size: 14px;
+    font-family: "Open Sans Condensed",sans-serif;
+    border-bottom: 1px dotted #EBEBEB
+}
+.price-table-contatent{
+  background: #EBEBEB;
+  padding-bottom: 30px;
+  padding-top: 30px; 
+}
+.price-table-contatent h1{
+    margin-top: 14px;
+    margin-bottom: 60px;
+}
+.price-table-contatent ul{
+  line-height: 200%;
+  font-size: 18px;
+}
+.price-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    height: 565px;
+    border: 1px solid #D9D9D9;
+}
+.center-block{
+    height: 115px;
+    width: 115px;
+    background: #47C7D2;
+    padding-top: 12px;
+    border-radius: 50%;
+    color: #fff;
+    transition-duration: 0.7s;
+}
+.price-box h1{
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+.price-box h2{
+    font-size: 26px;
+    color: #FD4452;
+}
+
+.price-first{
+    font-weight: 700;
+}
+.price-inter-box{
+    border: 1px solid #D9D9D9;
+    margin-left: 15px;
+    height: 530px;
+    margin-right: 15px;
+    margin-top: -3px;
+    padding-top: 20px;
+    box-shadow: 0 0 1em #D9D9D9;
+}
+.price-table-contatent .price-box:hover .center-block{  /*----price p hover---*/
+  -webkit-transform :scale(1.1,1.1);
+  -mos-transform : scale(1.1,1.1);
+  -o-transform : scale(1.1,1.1);
+  transform : scale(1.1,1.1); 
+
+}
+.price-table-contatent .btn{
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 34px;
+    background: transparent linear-gradient(to bottom, #0DBBFF 0%, #42C6FB 23%, #9DE0FB 82%, #00B7FF 100%) repeat scroll 0% 0%;
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    border-bottom: 4px solid #007AA9;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+}
+.info{
+    color: #018FC6;
+    font-size: 17px;
+    padding-top: 15px;
+}
+.info:hover{
+    color: #0DBBFF;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.price-table-contatent .btn:hover{
+    box-shadow: 1px 2px 6px #0DBBFF;
+    background: transparent linear-gradient(to bottom, #0DBBFF 0%, #9DE0FB 23%, #42C6FB 82%, #00B7FF 100%) repeat scroll 0% 0%;
+}
+/*---------------------
+    News section
+----------------------*/
+.spring-news{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.spring-news h1{
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+.springbig-heading h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #474B4E;
+}
+.springbig-heading span{    
+    font-weight: 200;
+}
+.top-margin{
+    margin-top: -20px;
+}
+.top-margin-one{
+    margin-top: -10px;
+}
+/*---------------------
+    Footer section
+----------------------*/
+
+/*-- footer-top  Section --*/
+
+.footer-top{
+    background: #232323;
+    color: #D3D3D3;
+}
+.footer-top-img{
+    background: transparent url("../images/arrow.png") no-repeat scroll center top;
+}
+.springbig-footer-heading h1{
+    margin-top: 0px;
+    padding: 10px;
+}
+.thin{    
+    font-weight: 200;
+}
+.bolder{
+    font-family: lato-#000;
+    font-weight: 700;
+}
+/*--- footer bottom ---*/
+
+.footer-bottom {
+    background: #3A3A3A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .footer-bottom li a {
+    color: #fff;
+
+ }
+ .footer-bottom i {
+    color: #3A3A3A;
+    background: #565658 none repeat scroll 0% 0%;
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .spring-copyright{
+    color: #fff;
+ }
+/*----------------------
+        Modal section 
+-----------------------*/
+.modal-heading{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.modal-rate{
+    font-size: 26px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    border-left: 10px solid #47C7D2;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.custom-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 3px;
+    width: 100%;
+}
+.title-heading{
+    white-space: nowrap;
+}
+/*-------------------
+    media section
+---------------------*/
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 979px){ 
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form-size {
+        padding-left: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 10px;
+    }
+    .spring-form .btn {
+        font-size: 18px;
+    }
+    .price-table-contatent .btn {
+        font-size: 18px;
+    }
+    .header-bg .btn {
+        font-size: 11px;
+    }
+    .header-bg .header-bg-content h1 {
+        font-size: 30px;
+    }
+    .header-bg .header-bg-content h2 {
+        font-size: 20px;
+    }
+    .header-bg .header-bg-content h3 {
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 480px){
+   
+}
+
+@media (max-width: 1200px) and (min-width:980px){
+	
+}
